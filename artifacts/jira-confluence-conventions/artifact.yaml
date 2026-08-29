@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: jira-confluence-conventions
+name: Jira & Confluence Conventions
+description: House conventions for Jira tickets and Confluence pages, appended to CLAUDE.md
+type: instruction
+version: 1.0.0
+owner:
+  team: platform
+tags: [jira, confluence, conventions, platform]
+files:
+  - from: CLAUDE.md
+    to: CLAUDE.md
+install:
+  scope: [global, workspace]
+  default_scope: workspace

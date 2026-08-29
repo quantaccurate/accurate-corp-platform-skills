@@ -1,0 +1,7 @@
+schema_version: "1.0"
+registry:
+  id: accurate-corp-platform-skills
+  name: Accurate Corp Platform Skills
+  description: Platform team artifacts — observability, issue triage, and Jira/Confluence conventions
+  maintainers: []
+  default_channel: stable

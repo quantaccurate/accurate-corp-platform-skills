@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: jira-confluence
+name: Jira & Confluence
+description: Draft a Jira ticket or Confluence page in the house format — conventions, templates, and a couple of example JQL searches
+type: skill
+version: 1.0.0
+owner:
+  team: platform
+tags: [jira, confluence, platform]
+files:
+  - from: skills/jira-confluence
+    to: skills/jira-confluence
+install:
+  scope: [global, workspace]
+  default_scope: workspace

@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: observability
+name: Observability
+description: Reviews logging, metrics, tracing, and alerting for gaps, noise, and blind spots
+type: agent
+version: 1.0.0
+owner:
+  team: platform
+tags: [observability, monitoring, alerting, platform]
+files:
+  - from: agents/observability.md
+    to: agents/observability.md
+install:
+  scope: [global, workspace]
+  default_scope: workspace

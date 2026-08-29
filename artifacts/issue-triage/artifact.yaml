@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: issue-triage
+name: Issue Triage
+description: Triages an incoming bug report or support issue — severity, likely duplicates, and a ticket-ready summary
+type: agent
+version: 1.0.0
+owner:
+  team: platform
+tags: [triage, support, jira, platform]
+files:
+  - from: agents/issue-triage.md
+    to: agents/issue-triage.md
+install:
+  scope: [global, workspace]
+  default_scope: workspace
