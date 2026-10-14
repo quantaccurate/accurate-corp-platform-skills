@@ -5,3 +5,5 @@ registry:
   description: Platform team artifacts — observability, issue triage, and Jira/Confluence conventions
   maintainers: []
   default_channel: stable
+  # The one coding tool this registry serves (Enterprise Forge ADR 0004).
+  assistant: claude-code
